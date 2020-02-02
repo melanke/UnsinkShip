@@ -1,3 +1,5 @@
+![splashscreen](https://i.imgur.com/wo66oxv.jpg)
+
 # UnsinkShip
 A Game for Global Game Jam 2020
 
