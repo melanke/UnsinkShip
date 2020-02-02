@@ -340,7 +340,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.0092666e-36, y: 1.0339758e-25, z: 2.35099e-38, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: -2.3059837e+18, w: 2.0679515e-25}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -655,6 +655,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PanelGameOver
       objectReference: {fileID: 0}
+    - target: {fileID: 1015078101158118738, guid: 13dce6f31522348908c71a7cf7d6ec41,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -713,22 +718,22 @@ PrefabInstance:
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.0081444
       objectReference: {fileID: 0}
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000015259
+      value: 0.000049591
       objectReference: {fileID: 0}
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 814
+      value: 1066.7
       objectReference: {fileID: 0}
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 458
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 1015078101158118739, guid: 13dce6f31522348908c71a7cf7d6ec41,
         type: 3}
@@ -760,6 +765,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1015078101014855471, guid: 13dce6f31522348908c71a7cf7d6ec41,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000026703
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015078101014855471, guid: 13dce6f31522348908c71a7cf7d6ec41,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 159
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015078101014855471, guid: 13dce6f31522348908c71a7cf7d6ec41,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 412.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015078101014855471, guid: 13dce6f31522348908c71a7cf7d6ec41,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 115.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13dce6f31522348908c71a7cf7d6ec41, type: 3}
 --- !u!1001 &5003681517150204462
@@ -778,6 +803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922327011281058901, guid: dc8cb49c0a625438fa67112c969fe8bd,
+        type: 3}
+      propertyPath: sceneToChange
+      value: StartScene
       objectReference: {fileID: 0}
     - target: {fileID: 1318770883003515979, guid: dc8cb49c0a625438fa67112c969fe8bd,
         type: 3}
@@ -833,11 +863,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922327011281058901, guid: dc8cb49c0a625438fa67112c969fe8bd,
-        type: 3}
-      propertyPath: sceneToChange
-      value: StartScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc8cb49c0a625438fa67112c969fe8bd, type: 3}
@@ -1046,6 +1071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShipLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 6011238676103918263, guid: 095d82db8274744cf9771ef9f64512c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6011238676103918260, guid: 095d82db8274744cf9771ef9f64512c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1170,6 +1200,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerLevelShip
       objectReference: {fileID: 0}
+    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
+        type: 3}
+      propertyPath: panelGameOver
+      value: 
+      objectReference: {fileID: 929515596}
+    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
+        type: 3}
+      propertyPath: countFloodSolved
+      value: 
+      objectReference: {fileID: 1135618471}
+    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
+        type: 3}
+      propertyPath: changeSceneByAnyKey
+      value: 
+      objectReference: {fileID: 1533652254}
+    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
+        type: 3}
+      propertyPath: pressAnyKey
+      value: 
+      objectReference: {fileID: 1439921740}
+    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
+        type: 3}
+      propertyPath: minDangerLevel
+      value: -200
+      objectReference: {fileID: 0}
     - target: {fileID: 8048314120358760541, guid: cd3a6ca713b024283bbea607b19e0a6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1224,31 +1279,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
-        type: 3}
-      propertyPath: panelGameOver
-      value: 
-      objectReference: {fileID: 929515596}
-    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
-        type: 3}
-      propertyPath: countFloodSolved
-      value: 
-      objectReference: {fileID: 1135618471}
-    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
-        type: 3}
-      propertyPath: changeSceneByAnyKey
-      value: 
-      objectReference: {fileID: 1533652254}
-    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
-        type: 3}
-      propertyPath: pressAnyKey
-      value: 
-      objectReference: {fileID: 1439921740}
-    - target: {fileID: 4502870479616986984, guid: cd3a6ca713b024283bbea607b19e0a6e,
-        type: 3}
-      propertyPath: minDangerLevel
-      value: -200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd3a6ca713b024283bbea607b19e0a6e, type: 3}

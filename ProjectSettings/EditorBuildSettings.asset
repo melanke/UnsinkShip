@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/GlassPig.unity
+    guid: 484cf5e1ad3ad154e856bf1834b1c57a
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: c6d6e3aa5cae84d8fbf0a2ab8a22fd44
   - enabled: 1
